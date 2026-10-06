@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/creme"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doações"
+        android:textColor="@color/marrom_escuro"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtDescricaoDoacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registre a saída de um livro do acervo para uma nova doação."
+        android:textColor="@color/cinza"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Livro disponível"
+        android:textColor="@color/marrom_escuro"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerLivros"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txtNenhumLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Não há livros disponíveis para doação."
+        android:textColor="@color/cinza"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnRealizarDoacao"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="REALIZAR DOAÇÃO"
+        android:textColor="@color/branco"
+        android:textStyle="bold"
+        android:backgroundTint="@color/verde_sage"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txtResultadoDoacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/verde_escuro"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>

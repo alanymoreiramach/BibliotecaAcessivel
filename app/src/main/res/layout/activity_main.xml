@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <!-- Ícone central -->
+    <TextView
+        android:id="@+id/txtIcone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📖"
+        android:textSize="64sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp" />
+
+    <!-- Nome do aplicativo -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIBLIOTECA\nACESSÍVEL"
+        android:textAlignment="center"
+        android:textColor="@color/marrom_escuro"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/txtIcone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Frase -->
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Livros que encontram novos leitores."
+        android:textAlignment="center"
+        android:textColor="@color/cinza"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
+
+    <!-- Botão entrar -->
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="220dp"
+        android:layout_height="58dp"
+        android:text="ENTRAR"
+        android:textColor="@color/branco"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/marrom"
+        app:layout_constraintTop_toBottomOf="@id/txtDescricao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="55dp" />
+
+    <!-- Rodapé -->
+    <TextView
+        android:id="@+id/txtRodape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestão simples • Acervo • Doações • Caixa"
+        android:textColor="@color/cinza"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

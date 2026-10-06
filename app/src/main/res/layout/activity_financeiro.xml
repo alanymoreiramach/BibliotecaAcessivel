@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Financeiro"
+            android:textColor="@color/marrom_escuro"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Controle simples das movimentações do ponto."
+            android:textColor="@color/cinza"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/marrom"
+            android:padding="25dp"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SALDO ATUAL"
+                android:textColor="@color/bege"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/txtSaldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 0,00"
+                android:textColor="@color/branco"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="+  REGISTRAR ENTRADA"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/verde_sage"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/btnSaida"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="-  REGISTRAR SAÍDA"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/marrom_escuro"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movimentações"
+            android:textColor="@color/marrom_escuro"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:id="@+id/containerMovimentacoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

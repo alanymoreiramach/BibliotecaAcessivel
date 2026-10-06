@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloTela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar livro"
+            android:textColor="@color/marrom_escuro"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText
+            android:id="@+id/edtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título do livro"
+            android:inputType="textCapSentences"
+            android:padding="14dp"/>
+
+        <EditText
+            android:id="@+id/edtAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Autor"
+            android:inputType="textCapWords"
+            android:padding="14dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/edtAno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ano"
+            android:inputType="number"
+            android:padding="14dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/edtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categoria"
+            android:inputType="textCapWords"
+            android:padding="14dp"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Origem do livro"
+            android:textColor="@color/marrom_escuro"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioOrigem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioDoacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doação"/>
+
+            <RadioButton
+                android:id="@+id/radioCompra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compra"
+                android:layout_marginStart="20dp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="SALVAR LIVRO"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:backgroundTint="@color/marrom"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

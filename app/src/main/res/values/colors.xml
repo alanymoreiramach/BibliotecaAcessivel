@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="creme">#F7F1E8</color>
+    <color name="marrom">#5C4033</color>
+    <color name="marrom_escuro">#3E2B23</color>
+    <color name="verde_sage">#7A8B72</color>
+    <color name="verde_escuro">#566451</color>
+    <color name="bege">#E8D8C3</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="texto">#332A26</color>
+    <color name="cinza">#756C67</color>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/creme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Olá!"
+            android:textColor="@color/cinza"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biblioteca Acessível"
+            android:textColor="@color/marrom_escuro"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O que você deseja fazer?"
+            android:textColor="@color/cinza"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="28dp" />
+
+        <Button
+            android:id="@+id/btnLivros"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="MEUS LIVROS"
+            android:textColor="@color/branco"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/marrom" />
+
+        <Button
+            android:id="@+id/btnDoacoes"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="DOAÇÕES"
+            android:textColor="@color/branco"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/verde_sage"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/btnFinanceiro"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="FINANCEIRO"
+            android:textColor="@color/branco"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/marrom_escuro"
+            android:layout_marginTop="18dp" />
+
+    </LinearLayout>
+
+</ScrollView>
