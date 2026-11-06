@@ -368,6 +368,15 @@ A validação do aplicativo deverá contemplar os principais fluxos de utilizaç
 
 Os testes devem verificar tanto o comportamento esperado quanto a preservação das informações.
 
+Estratégia de testes: O projeto DoeLivros utiliza testes unitários com JUnit para verificar as principais regras de negócio da aplicação.
+Em vez de testar individualmente todos os componentes visuais, foram selecionadas classes representativas das funcionalidades essenciais do sistema, priorizando:
+- Movimentações financeiras;
+- Cálculo e controle do caixa;
+- Gerenciamento e disponibilidade dos livros.
+
+Essa estratégia permite verificar os comportamentos fundamentais da aplicação, mantendo os testes objetivos e evitando repetições desnecessárias.
+As funcionalidades relacionadas à interface gráfica são complementadas por verificações manuais no aplicativo.
+
 ## 14. Considerações finais
 
 O DoeLivros busca demonstrar como conceitos de Engenharia de Software e Programação Orientada a Objetos podem ser aplicados no desenvolvimento de uma solução prática.
