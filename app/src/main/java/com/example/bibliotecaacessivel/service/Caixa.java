@@ -47,4 +47,9 @@ public class Caixa {
 
         return new ArrayList<>(movimentacoes);
     }
+
+    void limparMovimentacoes() {
+        movimentacoes.clear();
+    }
+
 }
